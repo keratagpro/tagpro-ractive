@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name          TagPro Ractive
-// @description   A base object that listens to the global tagpro object using Ractive's magic mode.
+// @description   A window.tagproRactive component that listens to window.tagpro using Ractive's magic mode.
 // @version       0.1
 // @author        Kera
-// @namespace     http://keratagpro.github.io/tagpro-ractive
+// @namespace     https://github.com/keratagpro
 // @downloadUrl   https://keratagpro.github.io/tagpro-ractive/tagpro-ractive.user.js
 // @updateUrl     https://keratagpro.github.io/tagpro-ractive/tagpro-ractive.meta.js
 // @include       http://tagpro-*.koalabeast.com:*
