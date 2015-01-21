@@ -5,6 +5,27 @@ Download: http://keratagpro.github.io/tagpro-ractive/tagpro-ractive.user.js
 
 Example: http://keratagpro.github.io/tagpro-ractive
 
+## Usage
+
+1. Include the script with `@require` in your userscript's header
+    ```
+    // @require  http://keratagpro.github.io/tagpro-ractive/tagpro-ractive.user.js
+    ```
+
+2. Add your components with `window.ractive.addComponent(component)`:
+    ```
+    tagpro.ready(function() {
+        var MyComponent = Ractive.extend({
+            template: '<h1>Hello {{name}}</h1>',
+            data: {
+                name: 'Hello'
+            }
+        });
+
+        ractive.addComponent(MyComponent);
+    });
+    ```
+
 ## Development
 
 1. Install NodeJS
