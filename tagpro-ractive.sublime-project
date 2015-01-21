@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["tmp/tempRepo", "node_modules"]
+		}
+	]
+}

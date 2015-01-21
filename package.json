@@ -1,0 +1,18 @@
+{
+  "name": "tagpro-ractive",
+  "version": "0.3.0",
+  "description": "TagPro Userscript that observes the global tagpro object using Ractive's magic mode.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keratagpro/tagpro-ractive.git"
+  },
+  "devDependencies": {
+    "browser-sync": "~1.9.0",
+    "gh-pages": "^0.2.0",
+    "git-config": "0.0.6",
+    "gulp": "~3.8.10",
+    "gulp-add-src": "^0.2.0",
+    "gulp-concat": "^2.4.3",
+    "gulp-rename": "^1.2.0"
+  }
+}
