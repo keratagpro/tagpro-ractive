@@ -9,9 +9,7 @@
 </head>
 
 <body>
-	<h1>TagPro Ractive Userscript Example</h1>
-
-
+	<h1>TagPro Ractive Example</h1>
 
 	<script src="//cdn.ractivejs.org/latest/ractive.min.js"></script>
 	<script src="tagpro-ractive.user.js"></script>
@@ -33,7 +31,7 @@
 
 	<script>
 	tagpro.ready(function() {
-		ractive.addComponent(Ractive.extend({
+		tagproRactive.addComponent(Ractive.extend({
 			template: '#example-template',
 			data: {
 				greeting: 'Hello'

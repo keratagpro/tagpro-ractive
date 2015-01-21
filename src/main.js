@@ -1,9 +1,9 @@
 tagpro.ready(function() {
-	if (window.ractive) {
+	if (window.tagproRactive) {
 		return;
 	}
 
-	window.ractive = new Ractive({
+	window.tagproRactive = new Ractive({
 		append: true,
 		el: document.body,
 		template: {'v':1,'t':[{'t':4,'r':'partialsList','f':[{'t':8,'r':'.'}]}]}, // {{#partialsList}}{{>.}}{{/partialsList}},
